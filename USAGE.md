@@ -1,3 +1,6 @@
+For the code that reproduces the results of the paper, see release/
+and release/README.md.
+
 # Normalizing Flow Training and Testing Guide
 
 ## File Structure

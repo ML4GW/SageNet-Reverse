@@ -1,0 +1,13 @@
+# SageNetR release - versions as installed on the original machine
+# (Python 3.11.17; torch built for CUDA 12.4; inference ran on one RTX 4090)
+torch==2.5.1+cu124
+numpy==2.4.2
+scipy==1.17.1
+matplotlib==3.11.2
+joblib==1.6.0
+scikit-learn==1.9.1
+# pandas==3.0.6  # only needed by crop_joint.py
+# pymongo        # only needed by crop_joint.py (MongoDB at localhost:27017);
+#                # not installed on the original machine - crop_joint.py is
+#                # provided for provenance; regenerate datasets where MongoDB
+#                # is available, or reuse the shipped dataset json files.

@@ -1,0 +1,16 @@
+{
+  "root": "..",
+  "workspace": "../workspace",
+  "r40_refs": "../r40_refs",
+  "ce40_inputs": "../ce40_inputs",
+  "data_dir": "../workspace/dataset",
+  "save_dir": "../workspace/new/models",
+  "dataset_pta": "../workspace/dataset/single/PTA_fixed_14pts.json",
+  "dataset_lisa": "../workspace/dataset/single/LISA_fixed_500pts.json",
+  "dataset_ligo": "../workspace/dataset/single/LIGO_fixed_546pts.json",
+  "dataset_joint": "../workspace/dataset/Dataset_PTA_LISA_LIGO.json",
+  "noise_pta_dir": "../workspace/new/noise/NANOGrav15yr",
+  "ligo_noise_file": "../workspace/new/noise/C_O1_O2_O3.dat.txt",
+  "ckpt_u1c_s1": "../workspace/outputs/r51/t1_train/U1c_s1/U1c_flow.pt",
+  "ckpt_u1c_fut_s1": "../workspace/outputs/r55/t1_train/U1c_fut_s1/U1c_flow.pt"
+}
